@@ -25,6 +25,9 @@ public class StringValues {
 	
 	@Value("${string-values.folded-block-scalar}")
 	private String foldedBlock;
+
+	@Value("${string-values.unicode}")
+	private String uniCodeValue;
 	
 	@PostConstruct
 	public void printValues() {
