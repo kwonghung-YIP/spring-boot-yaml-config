@@ -24,3 +24,15 @@ string-values:
     3rd line and spaces after me
     
   unicode: "\u7e41\u9ad4\u4e2d\u6587\ud55c\uad6d\uc5b4"
+  
+list-values:
+  sample1:
+   - item 1
+   - item 2
+   - item 3
+  sample2: [item A, item B, item C]
+  sample3: item 7, item 8, item 9
+  sample-4: >
+    item 5,
+    item 6,
+    item 7
