@@ -1,4 +1,4 @@
-# spring-boot-yaml-config
+# Introduction
 A demo to load properties from yaml config file into spring different data type
 
 Spring boot allows to externalize properties, but for the password properties such as "spring.database.password", you properly don't want to save in application.yaml in plain text
@@ -7,11 +7,11 @@ This demo shows the easy way, for spring boot to load the password property from
 
 # Sample application.yml 
 
-# Docker service definition
+# Define docker service and secret
 
 # EnvironmentPostProcessor implementation
 
-
+# Run the demo
 
 
 
