@@ -5,11 +5,11 @@ Spring boot allows to externalize properties, but for the password properties su
 
 This demo shows the easy way, for spring boot to load the password property from docker secret, instead of hard code it in a yaml or properties file. The idea is to load the password stored in docker secert as the properties, then other properties such as "spring.datasource.password" can refer to it.
 
-# The sample application.yml 
+# Sample application.yml 
 
-# The docker service definition
+# Docker service definition
 
-# The EnvironmentPostProcessor implementation
+# EnvironmentPostProcessor implementation
 
 
 
