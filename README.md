@@ -4,11 +4,11 @@ This demo shows how spring boot loading the password property from docker secret
 
 # Sample application.yml 
 
-'''yaml
+```yaml
 spring:
   datasource:
     password: ${docker-secret-mydb-password}
-'''
+```
 # Define docker service and secret
 
 # EnvironmentPostProcessor implementation
