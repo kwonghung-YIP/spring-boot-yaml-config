@@ -11,7 +11,16 @@ spring:
 ```
 # Define docker service and secret
 
+```
+docker secret
+docker service create \
+  --secret
+```
+
 # EnvironmentPostProcessor implementation
+
+```spring
+```
 
 # Run the demo
 
